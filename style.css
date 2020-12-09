@@ -60,13 +60,47 @@ h3{
 
 
 footer{
-	text-align: center;
+	display: inline;
+	
 	
 }
 footer ul {
     display: flex;
     list-style-type: none;
-
-    margin: auto 33%;
+    margin: auto 35%;
     justify-content: space-between;
+}
+
+
+
+/* ===================MEDIA QUERY=================== */
+
+
+
+@media(max-width:400px){
+	body {
+		
+	
+		margin: 0em;
+	}
+	img{
+		width: 100%;
+	}
+
+	.spread{
+		padding: 0em;
+	}
+
+	.spread a{
+		padding: 5% 11%
+	}
+
+	.fix {
+
+	
+		margin: auto 26%;
+		padding: 0em;
+	
+	}
+	
 }
